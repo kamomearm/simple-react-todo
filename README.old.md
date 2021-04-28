@@ -1,3 +1,2 @@
 # simple-react-todo
-
-todo react
+todo react 
