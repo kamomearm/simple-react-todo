@@ -2,7 +2,7 @@
 
 todo react
 
-FYI: https://sadnessojisan.github.io/simple-react-todo/
+FYI: https://introduction-of-react-introduction-book.github.io/simple-react-todo/
 
 ## dev
 
