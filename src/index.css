@@ -1,7 +1,9 @@
 .checked {
   text-decoration: line-through;
 }
-
+.stopped {
+  color: red;
+}
 ul {
   list-style: none;
 }
