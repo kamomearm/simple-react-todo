@@ -2,7 +2,7 @@
 
 todo react
 
-FYI: https://introduction-of-react-introduction-book.github.io/simple-react-todo/
+FYI:[ https://introduction-of-react-introduction-book.github.io/simple-react-todo/](https://kamomearm.github.io/simple-react-todo/)
 
 ## dev
 
