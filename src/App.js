@@ -62,9 +62,9 @@ function App() {
 							onChange={() => handleChangeCheckBox(todo.id)}
 						/>
 						{todo.task}
-						{/* <button onClick={() => handleClickStopButton(todo.id)}>
+						<button onClick={() => handleClickStopButton(todo.id)}>
 							停止
-						</button> */}
+						</button>
 						<button onClick={() => handleClickDeleteButton(todo.id)}>
 							削除
 						</button>
