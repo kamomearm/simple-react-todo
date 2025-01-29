@@ -57,7 +57,7 @@ function App() {
 			<div>
 				{todos.map((todo) => (
 					<div key={todo.id} 
-						className={`${todo.checked ? "checked" : ""} ${todo.stopped ? "stopped" : ""}`}>
+						className={`${todo.checked ? "checked" : "uncheck"} ${todo.stopped ? "stopped" : "unstop"}`}>
 						<input
 							type='checkbox'
 							onChange={() => handleChangeCheckBox(todo.id)}
