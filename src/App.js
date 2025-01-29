@@ -41,7 +41,7 @@ function App() {
 	const handleClickStopButton = (id) => {
 		const stoppedTodos = todos.map((todo) => {
 			if (todo.id === id) {
-				return { ...todo, stopped: todo.stopped };
+				return { ...todo, stopped: !todo.stopped };
 			}
 			return todo;
 		});
@@ -56,7 +56,8 @@ function App() {
 			</form>
 			<div>
 				{todos.map((todo) => (
-					<div key={todo.id} className={todo.checked ? "checked" : ""}>
+					<div key={todo.id} 
+						className={`${todo.checked ? "checked" : ""} ${todo.stopped ? "stopped" : ""}`}>
 						<input
 							type='checkbox'
 							onChange={() => handleChangeCheckBox(todo.id)}
